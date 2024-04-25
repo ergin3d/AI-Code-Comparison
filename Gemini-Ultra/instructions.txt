@@ -1,0 +1,34 @@
+1. Sahneyi Kurma:
+Nesne Oluşturma: 
+: Kutunuz için boş bir GameObject oluşturun ve adını "Kutu" olarak değiştirin.
+: Rafınız için boş bir GameObject oluşturun ve adını "Raf" olarak değiştirin.
+: Ürününüz için 3D model oluşturun ve bunu bir prefab'a dönüştürün. Prefab'ı "Ürün" olarak adlandırın.
+
+Bileşen Ekleyin:
+: Hem Kutu hem de Raf GameObject'larına bir çarpışma algılayıcı (Box Collider gibi) ekleyin. Bunun, tutturma mantığının çalışması için önemlidir.
+: Ürün prefab'ınıza bir Rigidbody bileşeni ekleyin.
+: Ürün prefab'ınızın "Ürün" adında bir etiketi olduğundan emin olun.
+
+2. Scripti Ekleme:
+Script Oluşturma: Yeni bir C# script oluşturun ve adını "ProductTransfer.cs" olarak değiştirin. Sağlanan kodu buraya yapıştırın.
+GameObject'ye Ekle: ProductTransfer script'inin bağlı olduğu GameObject'yi seçin.
+Inspector'da: "Kutu" GameObject'sünü "Kutu" yuvasına, "Raf" GameObject'sünü "Raf" yuvasına ve "Ürün" prefab'ınızı "Ürün Prefabı" yuvasına sürükleyip bırakın.
+
+3. Inspector'de Referansları Atama:
+: ProductTransfer script'inin bağlı olduğu GameObject'yi seçin.
+Inspector'da: "Kutu" yuvasına "Kutu" GameObject'sünü, "Raf" yuvasına "Raf" GameObject'sünü ve "Ürün Prefabı" yuvasına "Ürün" prefab'ınızı sürükleyin ve bırakın.
+
+4. Kurulumunuzu Test Edin:
+Oyunu Çalıştırın: Unity Editor'da çalıştır düğmesine basın.
+Ürünleri Oluşturma: Henüz yapmadıysanız, başlangıçta sahnede ürün prefabınızın bazı örneklerini oluşturmak için basit bir script yazabilir veya Unity'nin Instantiate işlevini kullanabilirsiniz.
+Tıkla ve Sürükle: Artık şunları yapabilmelisiniz:
+
+: Ürünleri almak için tıklayın.
+: Ekranın etrafında sürükleyin.
+: Tıklamayı bırakın ve konumlarına oturmaları için kutu veya rafın üzerine bırakın.
+
+Önemli Noktalar:
+
+Çarpışma Algılayıcılar: Tıklama ve sınır denetimleri düzgün çalışması için kutu ve rafın çarpışma algılayıcılarına ihtiyacı vardır.
+Ürün Etiketi: Alma mantığının çalışması için ürün prefabınızın "Ürün" etiketine sahip olduğundan emin olun.
+Özelleştirme: Tutturma mesafesini özelleştirebilir ve IsOverShelf işlevini özellikle istediğiniz raf sınırları için uygulayabilirsiniz.
