@@ -1,0 +1,28 @@
+1. Sahne Kurulumu:
+Unity'de yeni bir proje oluşturun.
+Ürünleriniz olarak kullanmak istediğiniz herhangi bir 3D modeli içe aktarın (kutular, şişeler vb.).
+Sahneye iki boş GameObject yerleştirin: biri kutu için, diğeri raf için.
+Ürünleri kutu hiyerarşisi içinde düzenleyin. Onları kutu GameObject'na bağlayabilirsiniz.
+
+2. Script Ekleme ve Referanslar:
+Oluştur > C# Script'e giderek yeni bir C# script oluşturun. "ProductTransfer.cs" gibi açıklayıcı bir isim verin.
+Sağlanan script kodunu yeni oluşturulan scripte kopyalayın.
+Sahnedeki bir GameObject'ya scripti ekleyin. Bu GameObject'nun görsel bir temsili olmayacak, ancak ürün transferi mantığını yönetecek.
+
+3. Inspector Penceresi Referansları:
+Inspector penceresinde, bağlı script'e sahip GameObject'yu seçin.
+Bileşen listesini genişletin ve "ProductTransfer" scripti'ni bulun.
+Sahne hiyerarşisinden kutu ve raf GameObject'larını sürükleyip script inspector'ındaki "Kutu" ve "Raf" yuvalarına bırakın.
+
+4. Test ve Kişiselleştirme:
+Oyunu çalıştırın ve kutunun içindeki ürünlere tıklayın. Vurgulanmalı veya alındıklarına dair görsel bir gösterge göstermelidirler.
+Fare düğmesini basılı tutarak ürünü sahnede sürükleyin.
+Ürünü rafa yerleştirmek için raftaki boş bir alana tıklayın. Raf hiyerarşisine oturmalıdır.
+Raftaki ürünleri alıp tekrar kutuya yerleştirmeyi deneyin.
+Kişiselleştirme:
+
+Script'i daha da özelleştirerek aşağıdaki gibi işlevler ekleyebilirsiniz:
+Ürün yerleştirmeyi daha hassas hale getirmek için raftaki bağlanma noktaları.
+Ürünleri alma ve bırakma için animasyonlar veya ses efektleri.
+Ürünlerin üst üste gelmesini önlemek için çarpışma algılama.
+Unity'de bu efektleri elde etme hakkında çevrimiçi öğreticileri arayın.
