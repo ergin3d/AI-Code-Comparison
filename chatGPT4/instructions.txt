@@ -1,0 +1,22 @@
+Adım 1: Unity Sahnenizi Ayarlayın
+
+Sahnede şunlar olmalıdır:
+Ürünler: Sürüklenebilen GameObject'ler.
+Raf ve Kutu: Bırakma bölgeleri olarak işlev gören GameObject'ler.
+
+Adım 2: Sürüklenebilir Script
+Bu script, bir nesnenin fare ile sürüklenmesine izin verir.
+: Draggable.cs
+
+Adım 3: Bırakma Bölgesi Script
+Bu script, öğelerin bırakılabileceği alanları tanımlar.
+: DropZone.cs
+
+Adım 4: Unity Objelerinizi Ayarlayın
+Her ürüne Sürüklenebilir script'i ekleyin.
+Hem rafa hem de kutuya Bırakma Bölgesi script'i ekleyin.
+İlgili tüm GameObject'lerin RectTransform ve gerekirse CanvasGroupa sahip olduğundan emin olun. Ürünler muhtemelen bir CanvasGroup eklenmesi gerektirir.
+
+Son Adımlar
+Sahnede sürükle bırak işlemleri için bir Canvas'ınız olduğundan emin olun.
+Sahnede çalıştırarak sürükle ve bırak işlemlerini test edin.
