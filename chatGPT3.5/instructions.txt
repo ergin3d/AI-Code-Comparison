@@ -1,0 +1,25 @@
+Adım 1: Unity Sahnenizi Hazırlayın
+Yeni bir Unity projesi oluşturun veya mevcut bir projeyi açın.
+Sahnenizi oluşturmak için bir kutu, bir raf ve ürünler için GameObject'ler oluşturun.
+Her GameObject'in üzerine bir collider bileşeni eklediğinizden emin olun. Kutu ve raf için BoxCollider, ürünler için ise BoxCollider veya SphereCollider kullanın.
+Ürün GameObject'lerini "Ürün" gibi benzersiz bir etiketle işaretleyin.
+
+Adım 2: Betiği Kutu GameObject'ine Ekleyin
+Unity projesinde yeni bir C# betiği oluşturun ve adını "TransferProducts" (veya uygun başka bir ad) olarak belirleyin.
+Betiği açın ve sağlanan kodu içine yapıştırın.
+Betiği Unity sahnesindeki kutu olarak temsil eden GameObject'e ekleyin.
+
+Adım 3: Unity Editöründe Referanslarını Atayın
+Unity Editöründe, sahnenizdeki kutuyu temsil eden GameObject'i seçin.
+İçerik penceresinde, "Transfer Products" betiği bileşenini bulun.
+Betiğin "Shelf" alanına rafı temsil eden GameObject'i atayın.
+
+Adım 4: Uygulamanızı Test Edin
+Unity sahnesini Editörde oynatın.
+Fare ile ürünleri sürükleyerek kutu ve raf arasında transfer edilebilir olduğunu doğrulayın.
+Fare tıklamaları ile ürünleri alıp kutu ve raf arasında transfer ederek işlevselliği test edin.
+Ürünlerin doğru bir şekilde transfer edildiğinden ve konumlarının güncellendiğinden emin olun.
+
+Ek Notlar:
+Görsel estetiğinize daha uygun olması için GameObject'lerin görünümünü ve davranışını özelleştirebilirsiniz, farklı modeller veya malzemeler kullanarak.
+Proje gereksinimlerinize uyacak şekilde betiği özelleştirebilir veya ek işlevsellikler ekleyebilirsiniz, örneğin transfer edilebilecek ürün sayısını sınırlamak veya bir puanlama sistemi uygulamak gibi.
