@@ -1,0 +1,10 @@
+Yeni bir Unity projesi oluşturun veya mevcut bir projeyi açın.
+Assets > Oluştur > C# Script'e giderek yeni bir C# script oluşturun ve "ProductTransfer" olarak adlandırın.
+Script'i açın ve daha önce verdiğim kodu kopyalayın.
+Script'i kaydedin.
+Unity editöründe, Hierarchy panelinde box ve shelf oyun nesnelerini seçin.
+Inspector panelinde, ProductTransfer script'indeki karşılık gelen public alanlarına (box ve shelf) box ve shelf nesnelerini sürükleyin ve bırakın.
+Hierarchy panelinde, transfer edilebilir ürünler olarak seçmek istediğiniz ürünleri seçin.
+Her ürüne bir Collider bileşeni ekleyin (ör. BoxCollider veya SphereCollider).
+Her ürüne bir Rigidbody bileşeni ekleyin (isteğe bağlı, ancak fiziksel etkileşimler için önerilir).
+Sahneyi kaydedin ve oynatmaya basın script'i test etmek için.
