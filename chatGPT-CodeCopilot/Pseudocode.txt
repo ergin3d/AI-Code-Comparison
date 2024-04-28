@@ -1,0 +1,36 @@
+class Product:
+    properties:
+        - sprite
+        - currentContainer (box or shelf)
+
+class Container:
+    methods:
+        - containsPoint(point): returns if a point is inside the container
+
+class Box(Container):
+    properties:
+        - products: list of products contained
+
+class Shelf(Container):
+    properties:
+        - products: list of products contained
+
+class DragAndDropManager:
+    properties:
+        - selectedProduct: currently picked product
+        - startDragPosition: initial pick position
+
+    methods:
+        - onMouseDown():
+            if click on product:
+                pick it up
+                save startDragPosition
+        - onMouseDrag():
+            if selectedProduct:
+                move product with cursor
+        - onMouseUp():
+            if over box or shelf:
+                drop selectedProduct there
+                update its container
+            else:
+                return product to startDragPosition
