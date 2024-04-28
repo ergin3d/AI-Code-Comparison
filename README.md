@@ -1,9 +1,9 @@
 # Comparative Analysis of GPT Models for Programming Languages and Game Development
 
-ChatGPT 3.5 vs 4 
-Gemini Pro vs Ultra 
-Meta AI 
-Copilot vs Copilot Pro vs Copilot Pro Custom GPT
+- ChatGPT 3.5 vs 4 
+- Gemini Pro vs Ultra 
+- Meta AI 
+- Copilot vs Pro vs Pro Custom GPT
 
 Prompt:
 - Could you provide a Unity script that allows transferring products between a box and a shelf, including functionalities for picking up products with mouse clicks, dragging them, and transferring them back and forth?
