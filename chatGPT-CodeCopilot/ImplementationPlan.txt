@@ -1,0 +1,10 @@
+Define Classes for Product and Containers: 
+Create Product with properties for its sprite and its current container. 
+Define a base Container class with a method to determine if a point is within its bounds. 
+Extend this class for Box and Shelf to manage contained products.
+
+Create Drag and Drop Manager: 
+This manager will handle user interactions such as mouse clicks and movements. 
+It will manage the selection, dragging, and dropping of products.
+Unity Implementation Details: Utilize Unity's event system for detecting mouse clicks and movements. 
+Use Unity's transform properties to move game objects.
