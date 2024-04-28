@@ -1,0 +1,15 @@
+Sahne Ayarları:
+: Sahnenizi bir kutu (rafı temsil eden) ve başka bir nesne (ürünü temsil eden) ile ayarlayın.
+: Hem kutunun hem de ürünün üzerine çarpışma kutuları (örneğin Box Collider) eklediğinizden emin olun.
+
+C# Betiği Oluşturma:
+: Yeni bir C# betiği oluşturun (örneğin ProductTransferController) ve ürün nesnesine bağlayın.
+: Bu betikte fare etkileşimlerini ve hareketi ele alacaksınız.
+
+Betiği Nesneye Bağlama:
+: ProductTransferController betiğini ürün nesnenize bağlayın.
+: Kutu (raf) ile çarpışmaları ele almak ve diğer özel gereksinimleri karşılamak için betiği gerektiği gibi ayarlayın.
+
+Test Etme:
+: Sahnenizi çalıştırın ve etkileşimi test edin.
+: Ürün, tıklanıp sürüklendiğinde fare imlecinin takip etmelidir.
