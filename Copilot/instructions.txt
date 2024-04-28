@@ -1,0 +1,13 @@
+GameObject’lerinizi oluşturun: Unity’de, ürün, kutu ve raf GameObject’lerinizi oluşturun. 
+: Bunu menüden GameObject -> Create Empty seçeneğine giderek ve ardından uygun bileşenleri ekleyerek 
+: (görseller için MeshRenderer ve MeshFilter, çarpışma algılama için Collider) yapabilirsiniz.
+
+Script’i ekleyin: Sağlanan script’i Unity projesinin Scripts klasörüne .cs dosyası olarak kaydedin. 
+: Ardından, script’i her bir ürün GameObject’inize ekleyin. 
+: Bunu, Hierarchy panelinde GameObject’i seçerek, ardından Inspector panelinde Add Component -> Scripts -> YourScriptName’e tıklayarak yapabilirsiniz.
+
+Etiketleri ayarlayın: Kutu ve raf GameObject’lerinizin uygun etiketlere (“Box” ve “Shelf”) sahip olduğundan emin olun. 
+: Bir GameObject seçildiğinde Inspector panelinde etiketleri ayarlayabilirsiniz.
+
+Sahneyi test edin: Unity’de Play düğmesine basarak oyunu başlatın. 
+: Artık ürün GameObject’lerinizi tıklamalı ve sürüklemeli ve onları kutu veya raf GameObject’lerinize bırakabilmelisiniz.
