@@ -1,0 +1,9 @@
+Unity projenizi açın ve sürükle ve bırak işlevselliğini uygulamak istediğiniz sahneye gidin.
+DragAndDrop adında yeni bir C# betiği oluşturun ve sağlanan kodu içine yapıştırın.
+Sürüklenebilir olmasını istediğiniz her ürün GameObject’ine DragAndDrop betiğini ekleyin.
+Her ürün GameObject’inin raycast’ler tarafından algılanabilmesi için bir Collider bileşeni (örneğin, BoxCollider veya SphereCollider) olduğundan emin olun.
+Betikteki boxTransform ve shelfTransform değişkenlerini kutu ve raf GameObject’lerinizin ilgili dönüşümlerine atayın.
+Her ürün tipi için UI Text öğeleri oluşturun ve bunları betik içindeki ProductInfo sınıfındaki uiText referanslarına atayın.
+DragAndDrop betiği ile GameObject’e bir AudioSource bileşeni ekleyin ve transferSound AudioClip’i atayın.
+Oyununuzun ölçeğine uyacak şekilde gerekirse CheckDropLocation metodundaki eşik mesafesini ayarlayın.
+Sahneyi oynatın ve sürükle ve bırak işlevselliğini test edin.
