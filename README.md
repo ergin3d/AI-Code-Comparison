@@ -4,6 +4,7 @@
 - Gemini Pro vs Ultra 
 - Meta AI 
 - Copilot vs Pro vs Pro Custom GPT
+- DataBricks DBRX Instruct
 
 Prompt:
 - Could you provide a Unity script that allows transferring products between a box and a shelf, including functionalities for picking up products with mouse clicks, dragging them, and transferring them back and forth?
@@ -11,4 +12,4 @@ Prompt:
 
 Notes: The custom GPT model of Copilot Pro, GameDev Guru, has suggested enhancements and provided additional details to improve the quality of the code.
 
-Update: 28 Apr 2024
+Update: 29 Apr 2024
