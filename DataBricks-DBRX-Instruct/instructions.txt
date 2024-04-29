@@ -1,0 +1,8 @@
+Yeni bir Unity projesi oluşturun veya mevcut bir proje açın.
+Unity'de yeni bir C# betiği oluşturun ve "Product" adını verin. Önceki cevabımda sağlanan ilk betiği bu betiğe kopyalayın ve yapıştırın.
+Betiği kaydedin ve Unity sahnenizdeki "Product" prefabına ekleyin. "Product" prefabının Rigidbody ve BoxCollider bileşeni ekli olduğundan emin olun.
+Unity sahnenizde iki boş GameObject oluşturun, biri kutu için, diğeri raflık için. Onlara sırasıyla "Box" ve "Shelf" adını verin.
+Unity'de yeni bir C# betiği oluşturun ve "ProductHolder" adını verin. Önceki cevabımda sağlanan ikinci betiği bu betiğe kopyalayın ve yapıştırın.
+Betiği kaydedin ve Unity sahnenizdeki "Box" ve "Shelf" GameObjectlerine ekleyin. Ayrıca, ürünleri farklı yerlerden almak istiyorsanız diğer GameObjectlere de ekleyebilirsiniz.
+"ProductHolder" betiğinin pickUpDistance değişkenini sahnenize uyacak şekilde bir değere ayarlayın.
+Unity sahnenizi kaydedin ve Oyna düğmesine basarak betiği test edin.
