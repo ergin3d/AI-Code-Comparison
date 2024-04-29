@@ -1,0 +1,25 @@
+Adım 1: Yeni bir script oluşturma
+: Unity'de, Varlıklar > Oluştur > C# Script'e gidin.
+: Script'in adını "ProductTransfer" olarak adlandırın ve Oluştur'a tıklayın.
+: Script'i çift tıklatarak tercih ettiğiniz kod editöründe açın.
+
+Adım 2: Script'i bir oyun nesnesine eklemek
+: Unity editöründe, Oyun Nesnesi > Boş Oluştur'a gidin.
+: Oyun nesnesine "ProductTransferManager" veya benzer bir isim verin.
+: "ProductTransfer" script'ini oyun nesnesine sürükleyip bırakın.
+
+Adım 3: Box ve shelf oyun nesnelerini ayarlamak
+: Unity editöründe, kutu ve rafı temsil edecek iki yeni oyun nesnesi oluşturun.
+: Onlara "Box" ve "Shelf" isimlerini verin.
+: Her iki oyun nesnesine de çarpışma algılayıcı ekleyin (örneğin, Box Collider veya Mesh Collider).
+: Inspector'da, "Box" ve "Shelf" oyun nesnelerini "ProductTransfer" script'inin ilgili alanlarına sürükleyip bırakın.
+
+Adım 4: Ürün prefab'ını ayarlamak
+: Unity editöründe, bir ürün temsil edecek yeni bir oyun nesnesi oluşturun.
+: Ona "ProductPrefab" veya benzer bir isim verin.
+: Ürün oyun nesnesine çarpışma algılayıcı ekleyin (örneğin, Box Collider veya Mesh Collider).
+: Inspector'da, "ProductPrefab" oyun nesnesini "ProductTransfer" script'inin ilgili alanına sürükleyip bırakın.
+
+Adım 5: Ürünleri kutuya veya rafa eklemek
+: Unity editöründe, "ProductPrefab" oyun nesnesinin yeni örneklerini sahneye sürükleyip bırakarak oluşturun.
+: Bir ürünü kutuya veya rafa eklemek için, "ProductTransfer" script'inin AddProduct yöntemini çağırın, ürün oyun nesnesini ve kutuya veya rafa ekleyip eklemediğini belirten bir boolean değeri geçirin.
