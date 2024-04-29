@@ -1,6 +1,0 @@
-Unity'de yeni bir C# betiği oluşturun ve "ProductTransfer" adını verin.
-Betiği tercih ettiğiniz kod editöründe açın ve sağlanan kodla içeriğini değiştirin.
-Betiği kaydedin ve Unity'ye geri dönün.
-Aktarılacak ürünlere betiği ekleyin. Bunu, hiyerarşi içindeki ürünü seçerek, denetçide "Bileşen Ekle" düğmesine tıklayarak ve ardından listeden "ProductTransfer" seçeneğini seçerek yapabilirsiniz.
-Raf ve kutu oyun nesnelerinin "Raf" ve "Kutu" etiketlerine sahip olduğundan emin olun. Bunu, hiyerarşi içindeki oyun nesnesini seçerek, denetçideki "Etiket" açılır listesine tıklayarak ve ardından uygun etiketi seçerek yapabilirsiniz.
-Oynat düğmesine basarak betiği test edin.
