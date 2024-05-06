@@ -1,0 +1,25 @@
+Projeyi Hazırlayın:
+: Unity'yi açın ve bu özelliği uygulamak istediğiniz yeni bir 3D proje oluşturun veya var olan bir projeyi açın.
+
+Scriptleri Oluşturun:
+: DragAndDropSystem, Container ve Product adında üç yeni C# scripti oluşturun.
+: Her bir script için verilen C# kodunu ilgili dosyalara kopyalayıp yapıştırın.
+
+Sahneyi Ayarlayın:
+: Unity sahnenizde Box ve Shelfi temsil edecek GameObject'ler oluşturun. Basit 3D objeler (küpler) veya özel modeller kullanabilirsiniz.
+: Bu GameObject'lere collider (örneğin BoxCollider) ekleyin, eğer henüz eklenmemişse.
+
+Scriptleri Uygulayın:
+: Container scriptini Box ve Shelf GameObject'lerine ekleyin.
+: Yeni bir GameObject oluşturun (örneğin, Küp) ve Product olarak kullanın. Buna da uygun bir collider (örneğin BoxCollider) ekleyin.
+: Bu GameObject'e Product scriptini ekleyin.
+
+Sürükle ve Bırak Sistemini Ayarlayın:
+: Sahnenizde boş bir GameObject oluşturun ve adını DragAndDropManager olarak adlandırın.
+: DragAndDropSystem scriptini DragAndDropManager GameObject'ine ekleyin.
+
+Script Ayarlarını Düzenleyin:
+: Product GameObject'lerini seçin ve Inspector'da, gerekirse uygun Container GameObject'lerine başvuracak şekilde ayarlandığından emin olun.
+
+Test Etme:
+: Unity'de Play moduna girin ve Product'ı Box ve Shelf arasında sürükleyip bırakmayı test edin. Ürünü almak için tıklayın, sürükleyin ve başka bir konteynere veya orijinal pozisyonuna bırakmak için bırakın.
