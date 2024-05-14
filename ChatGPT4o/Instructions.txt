@@ -1,23 +1,23 @@
-#Yeni Bir Unity Projesi Oluşturun:
+Yeni Bir Unity Projesi Oluşturun:
 - Unity Hub'ı açın ve yeni bir 2D projesi oluşturun.
 
-#Sahneyi Ayarlayın:
+Sahneyi Ayarlayın:
 - 2D sprite'lar kullanarak bir kutu ve raf oluşturun.
 - Bu nesneleri "Box" ve "Shelf" olarak etiketleyin.
 - Ürün nesneleri (örneğin, küçük kutular) oluşturun ve bunları "Product" olarak etiketleyin.
 
-#Collider'ları Ekleyin:
+Collider'ları Ekleyin:
 - BoxCollider2D bileşenlerini kutu, raf ve ürün nesnelerine ekleyin.
 - Boş GameObject'ler Oluşturun:
 - Boş GameObject'ler oluşturun ve bunları "BoxTrigger" ve "ShelfTrigger" olarak adlandırın.
 - Bu GameObject'lere BoxCollider2D ekleyin ve bunları tetikleyici olarak ayarlayın.
 - BoxTrigger'ı kutunun içine, ShelfTrigger'ı rafın içine yerleştirin.
 
-#Skripti Tetikleyicilere Ekleyin:
+Skripti Tetikleyicilere Ekleyin:
 - ProductTransfer skriptini hem BoxTrigger'a hem de ShelfTrigger'a ekleyin.
 
-#Ana Kamerayı Yapılandırın:
+Ana Kamerayı Yapılandırın:
 - Ana kameranın "MainCamera" olarak etiketlendiğinden emin olun.
 
-#Sahneyi Oynatın:
+Sahneyi Oynatın:
 - Oynat düğmesine basın. Şimdi ürünlere tıklayarak, sürükleyerek ve kutu ile raf arasında transfer ederek işlem yapabilmelisiniz.
