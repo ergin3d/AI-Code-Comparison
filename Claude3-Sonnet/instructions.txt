@@ -1,0 +1,8 @@
+Unity projenizde yeni bir script oluşturun. Bunun için Project penceresinde sağ tıklayın, ardından Create > C# Script'i seçin. Scripti "ProductTransfer" olarak adlandırın.
+Sağlanan kodu script dosyasına kopyalayıp yapıştırın.
+Unity sahnenizde üç GameObject oluşturun. Biri kutu, biri raf ve biri de ürün prefabı (örneğin, bir küp) için.
+ProductTransfer scriptini sahnenizde yeni bir boş GameObject'e ekleyin. Bunun için GameObject'i seçin, ardından Inspector'daki Add Component (Bileşen Ekle) düğmesine tıklayın ve "ProductTransfer" yazarak arayın.
+Inspector'da, kutu, raf ve ürün prefabı GameObject'lerini ilgili alanlara sürükleyip bırakarak script bileşenine atayın.
+"numProducts" değişkenini ayarlayarak kutunun içinde başlangıçta oluşturulacak ürün sayısını belirleyin.
+Sahnenizde doğru şekilde ayarlanmış bir kameranın olduğundan ve ürünlerin çarpışma katmanlarının (collider) ve "Product" etiketinin bulunduğundan emin olun.
+Unity Editor'de Oynat düğmesine basarak işlevselliği test edin. Artık kutudan ürünleri tıklayarak alabilmeli, sürükleyebilmeli ve ya kutunun içine ya da rafa bırakabilmelisiniz.
