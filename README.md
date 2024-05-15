@@ -5,6 +5,7 @@
 - Meta AI 
 - Copilot vs Pro vs Pro Custom GPT
 - DataBricks DBRX Instruct vs Meta Llama 3 70B Instruct
+- Claude 3 Sonnet
 
 Prompt:
 - Could you provide a Unity script that allows transferring products between a box and a shelf, including functionalities for picking up products with mouse clicks, dragging them, and transferring them back and forth?
