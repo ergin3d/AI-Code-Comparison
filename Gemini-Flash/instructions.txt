@@ -1,0 +1,35 @@
+Unity Product Transfer Script Instructions
+
+English Instructions:
+
+1. Create the Game Objects:
+   - Create empty game objects in your Unity scene and name them "Box" and "Shelf." These will act as containers for the products.
+   - Create a prefab for your product. You can use a simple cube or any other model you prefer. Make sure to tag this prefab as "Product."
+
+2. Attach the Script:
+   - Add the "ProductTransfer" script to one of the objects in your scene (it doesn't matter which).
+
+3. Configure the Script:
+   - In the Inspector panel, select the script attached to your GameObject.
+   - Drag and drop the "Box" and "Shelf" game objects into the respective fields of the script.
+   - Drag and drop your "Product" prefab into the "productPrefab" field.
+
+4. Run the Game:
+   - Press play to run the game. Now you should be able to pick up the products in the box with the left mouse button, drag them around, and drop them onto the shelf or back into the box.
+
+Turkish Instructions:
+
+1. Oyun Nesnelerini Oluşturun:
+   - Unity sahnenizde "Kutu" ve "Raf" isimlerinde iki boş oyun nesnesi oluşturun. Bu nesneler ürünler için konteyner görevi görecektir.
+   - Ürünleriniz için bir prefab oluşturun. Basit bir küp veya istediğiniz başka bir model kullanabilirsiniz. Bu prefab'a "Ürün" etiketi eklediğinizden emin olun.
+
+2. Komut Dosyasını Ekle:
+   - Sahnenizdeki nesnelerden birine "ProductTransfer" komut dosyasını ekleyin (hangi nesneye eklediğiniz fark etmez).
+
+3. Komut Dosyasını Yapılandırın:
+   - Inspector panelinde, GameObject'inize bağlı komut dosyasını seçin.
+   - "Kutu" ve "Raf" oyun nesnelerini, komut dosyasındaki ilgili alanlara sürükleyip bırakın.
+   - "Ürün" prefab'ınızı "productPrefab" alanına sürükleyip bırakın.
+
+4. Oyunu Çalıştırın:
+   - Oyunu çalıştırmak için "Play" düğmesine basın. Artık sol fare düğmesini kullanarak kutudaki ürünleri alabilir, sürükleyebilir ve rafa veya tekrar kutuya bırakabilirsiniz.
