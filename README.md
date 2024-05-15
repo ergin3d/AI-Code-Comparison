@@ -1,6 +1,6 @@
 # Comparative Analysis of GPT Models for Programming Languages and Game Development
 
-- ChatGPT 3.5 vs 4 
+- ChatGPT 3.5 vs 4 vs 4o
 - Gemini Pro vs Ultra vs Flash
 - Meta AI 
 - Copilot vs Pro vs Pro Custom GPT
