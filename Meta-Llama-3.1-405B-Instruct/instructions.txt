@@ -1,0 +1,29 @@
+English Instructions
+1. Create a new Unity project or open an existing one.
+2. Create a new C# script by going to **Assets** > **Create** > **C# Script**. Name the script "ProductTransfer".
+3. Copy the script code I provided earlier and paste it into the newly created script file.
+4. Save the script file.
+5. Create a new game object in your scene to serve as the box. You can use a cube or any other 3D object.
+6. Create a new game object in your scene to serve as the shelf. You can use a plane or any other 3D object.
+7. Create a new game object in your scene to serve as the product. You can use a small cube or any other 3D object.
+8. Tag the product game object with the tag "Product".
+9. Attach a collider to the box and shelf game objects. You can use a box collider or any other type of collider.
+10. Set the "Is Trigger" property of the colliders to "true".
+11. Attach the "ProductTransfer" script to a game object in your scene. This can be an empty game object or any other game object.
+12. In the inspector, assign the box, shelf, and product prefab variables to the corresponding game objects.
+13. Run the game and click on a product to pick it up. Drag the product to the box or shelf to transfer it.
+
+Türkçe Talimatlar
+1. Yeni bir Unity projesi oluşturun veya mevcut bir projeyi açın.
+2. **Varlıklar** > **Oluştur** > **C# Betiği**'ne giderek yeni bir C# betiği oluşturun. Betiğe "ÜrünTransferi" adını verin.
+3. Daha önce verdiğim betik kodunu kopyalayın ve yeni oluşturulan betik dosyasına yapıştırın.
+4. Betik dosyasını kaydedin.
+5. Sahnenizde bir kutu olarak görev yapacak yeni bir oyun nesnesi oluşturun. Bir küp veya herhangi bir 3D nesnesini kullanabilirsiniz.
+6. Sahnenizde bir raf olarak görev yapacak yeni bir oyun nesnesi oluşturun. Bir düzlem veya herhangi bir 3D nesnesini kullanabilirsiniz.
+7. Sahnenizde bir ürün olarak görev yapacak yeni bir oyun nesnesi oluşturun. Küçük bir küp veya herhangi bir 3D nesnesini kullanabilirsiniz.
+8. Ürün oyun nesnesine "Ürün" etiketini verin.
+9. Kutu ve raf oyun nesnelerine bir çarpışma algılayıcısı ekleyin. Bir kutu çarpışma algılayıcısı veya herhangi bir çarpışma algılayıcısı türünü kullanabilirsiniz.
+10. Çarpışma algılayıcılarının "Is Trigger" özelliğini "true" olarak ayarlayın.
+11. "ÜrünTransferi" betiğini sahnede bir oyun nesnesine ekleyin. Bu, boş bir oyun nesnesi veya herhangi bir oyun nesnesi olabilir.
+12. Denetçide, kutu, raf ve ürün ön izleme değişkenlerini ilgili oyun nesnelerine atayın.
+13. Oyunu çalıştırın ve bir ürüne tıklayarak onu alın. Ürünü kutuya veya rafa sürükleyin.
